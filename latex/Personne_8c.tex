@@ -1,0 +1,286 @@
+\hypertarget{Personne_8c}{}\section{Personne.\+c File Reference}
+\label{Personne_8c}\index{Personne.\+c@{Personne.\+c}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Personne.\+h\char`\"{}}\\*
+Include dependency graph for Personne.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{Personne_8c_abda5588ee769d930707712edb58003cd}{init\+Perso} (\hyperlink{structPersonne}{Personne} $\ast$p)
+\begin{DoxyCompactList}\small\item\em initialiser le perso . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_afa5767950e02e9db7f20769c7b1f0fea}{init\+Perso2} (\hyperlink{structPersonne}{Personne} $\ast$p)
+\begin{DoxyCompactList}\small\item\em initialiser le perso . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a4bafde0be286a257e2147e6aa8f300f6}{afficher\+Perso} (\hyperlink{structPersonne}{Personne} p, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em afficher le personnage . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a890b562569504b2c95e952869b42d7ff}{animer\+Perso} (\hyperlink{structPersonne}{Personne} $\ast$p)
+\begin{DoxyCompactList}\small\item\em animation du personnage . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a777608ef836d6c0ec1ef1d8933c29b63}{deplacer\+Perso} (\hyperlink{structPersonne}{Personne} $\ast$p, int dt)
+\begin{DoxyCompactList}\small\item\em deplacer le personnage . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a5cbafd5d3d35f70aef59ad889139cb3b}{deplacer\+Perso2} (\hyperlink{structPersonne}{Personne} $\ast$p, int dt)
+\begin{DoxyCompactList}\small\item\em deplacer le personnage . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a725deade6086f4e826dd404ae3037c29}{saut} (\hyperlink{structPersonne}{Personne} $\ast$p)
+\begin{DoxyCompactList}\small\item\em saut du personnage . \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a256a4734cf14d5292b7354edc6d728da}{initialiser\+\_\+score} (\hyperlink{structvie}{vie} $\ast$v)
+\begin{DoxyCompactList}\small\item\em To initialize vie v. \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_a14e6e91e0df63aadcc77dc194efa69aa}{update\+\_\+score} (\hyperlink{structvie}{vie} $\ast$v)
+\begin{DoxyCompactList}\small\item\em To update vie v. \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_af4b41a999c034b794d647ea826e989bf}{afficher\+\_\+vie} (\hyperlink{structvie}{vie} $\ast$v, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To show vie v. \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_af50ad3b8d645419e7a77a0fdfc647656}{initialiser\+\_\+score1} (\hyperlink{structscore}{score} $\ast$sc)
+\begin{DoxyCompactList}\small\item\em To initialize score sc. \end{DoxyCompactList}\item 
+void \hyperlink{Personne_8c_ad97cf5827c83ea151311575a5124cbf6}{afficher\+\_\+score} (\hyperlink{structscore}{score} sc, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To show score sc. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{Personne.\+c@{Personne.\+c}!afficher\+\_\+score@{afficher\+\_\+score}}
+\index{afficher\+\_\+score@{afficher\+\_\+score}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{afficher\+\_\+score(score sc, S\+D\+L\+\_\+\+Surface $\ast$screen)}{afficher_score(score sc, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void afficher\+\_\+score (
+\begin{DoxyParamCaption}
+\item[{{\bf score}}]{sc, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_ad97cf5827c83ea151311575a5124cbf6}{}\label{Personne_8c_ad97cf5827c83ea151311575a5124cbf6}
+
+
+To show score sc. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & the screen \\
+\hline
+{\em sc} & score \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!afficher\+\_\+vie@{afficher\+\_\+vie}}
+\index{afficher\+\_\+vie@{afficher\+\_\+vie}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{afficher\+\_\+vie(vie $\ast$v, S\+D\+L\+\_\+\+Surface $\ast$screen)}{afficher_vie(vie *v, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void afficher\+\_\+vie (
+\begin{DoxyParamCaption}
+\item[{{\bf vie} $\ast$}]{v, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_af4b41a999c034b794d647ea826e989bf}{}\label{Personne_8c_af4b41a999c034b794d647ea826e989bf}
+
+
+To show vie v. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & the screen \\
+\hline
+{\em v} & vie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!afficher\+Perso@{afficher\+Perso}}
+\index{afficher\+Perso@{afficher\+Perso}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{afficher\+Perso(\+Personne p, S\+D\+L\+\_\+\+Surface $\ast$screen)}{afficherPerso(Personne p, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void afficher\+Perso (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne}}]{p, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a4bafde0be286a257e2147e6aa8f300f6}{}\label{Personne_8c_a4bafde0be286a257e2147e6aa8f300f6}
+
+
+afficher le personnage . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & le perso \\
+\hline
+{\em screen} & le fentre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!animer\+Perso@{animer\+Perso}}
+\index{animer\+Perso@{animer\+Perso}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{animer\+Perso(\+Personne $\ast$p)}{animerPerso(Personne *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void animer\+Perso (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a890b562569504b2c95e952869b42d7ff}{}\label{Personne_8c_a890b562569504b2c95e952869b42d7ff}
+
+
+animation du personnage . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & perso \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!deplacer\+Perso@{deplacer\+Perso}}
+\index{deplacer\+Perso@{deplacer\+Perso}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{deplacer\+Perso(\+Personne $\ast$p, int dt)}{deplacerPerso(Personne *p, int dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void deplacer\+Perso (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p, }
+\item[{int}]{dt}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a777608ef836d6c0ec1ef1d8933c29b63}{}\label{Personne_8c_a777608ef836d6c0ec1ef1d8933c29b63}
+
+
+deplacer le personnage . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & perso \\
+\hline
+{\em dt} & durée du temps entre le debut et la fin de boucle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!deplacer\+Perso2@{deplacer\+Perso2}}
+\index{deplacer\+Perso2@{deplacer\+Perso2}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{deplacer\+Perso2(\+Personne $\ast$p, int dt)}{deplacerPerso2(Personne *p, int dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void deplacer\+Perso2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p, }
+\item[{int}]{dt}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a5cbafd5d3d35f70aef59ad889139cb3b}{}\label{Personne_8c_a5cbafd5d3d35f70aef59ad889139cb3b}
+
+
+deplacer le personnage . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & perso \\
+\hline
+{\em dt} & durée du temps entre le debut el fin de boucle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!initialiser\+\_\+score@{initialiser\+\_\+score}}
+\index{initialiser\+\_\+score@{initialiser\+\_\+score}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{initialiser\+\_\+score(vie $\ast$v)}{initialiser_score(vie *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void initialiser\+\_\+score (
+\begin{DoxyParamCaption}
+\item[{{\bf vie} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a256a4734cf14d5292b7354edc6d728da}{}\label{Personne_8c_a256a4734cf14d5292b7354edc6d728da}
+
+
+To initialize vie v. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & vie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!initialiser\+\_\+score1@{initialiser\+\_\+score1}}
+\index{initialiser\+\_\+score1@{initialiser\+\_\+score1}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{initialiser\+\_\+score1(score $\ast$sc)}{initialiser_score1(score *sc)}}]{\setlength{\rightskip}{0pt plus 5cm}void initialiser\+\_\+score1 (
+\begin{DoxyParamCaption}
+\item[{{\bf score} $\ast$}]{sc}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_af50ad3b8d645419e7a77a0fdfc647656}{}\label{Personne_8c_af50ad3b8d645419e7a77a0fdfc647656}
+
+
+To initialize score sc. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sc} & score \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!init\+Perso@{init\+Perso}}
+\index{init\+Perso@{init\+Perso}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{init\+Perso(\+Personne $\ast$p)}{initPerso(Personne *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Perso (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_abda5588ee769d930707712edb58003cd}{}\label{Personne_8c_abda5588ee769d930707712edb58003cd}
+
+
+initialiser le perso . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & le perso \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!init\+Perso2@{init\+Perso2}}
+\index{init\+Perso2@{init\+Perso2}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{init\+Perso2(\+Personne $\ast$p)}{initPerso2(Personne *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Perso2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_afa5767950e02e9db7f20769c7b1f0fea}{}\label{Personne_8c_afa5767950e02e9db7f20769c7b1f0fea}
+
+
+initialiser le perso . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & le perso \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!saut@{saut}}
+\index{saut@{saut}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{saut(\+Personne $\ast$p)}{saut(Personne *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void saut (
+\begin{DoxyParamCaption}
+\item[{{\bf Personne} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a725deade6086f4e826dd404ae3037c29}{}\label{Personne_8c_a725deade6086f4e826dd404ae3037c29}
+
+
+saut du personnage . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & perso \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{Personne.\+c@{Personne.\+c}!update\+\_\+score@{update\+\_\+score}}
+\index{update\+\_\+score@{update\+\_\+score}!Personne.\+c@{Personne.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+score(vie $\ast$v)}{update_score(vie *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+score (
+\begin{DoxyParamCaption}
+\item[{{\bf vie} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{Personne_8c_a14e6e91e0df63aadcc77dc194efa69aa}{}\label{Personne_8c_a14e6e91e0df63aadcc77dc194efa69aa}
+
+
+To update vie v. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & vie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}

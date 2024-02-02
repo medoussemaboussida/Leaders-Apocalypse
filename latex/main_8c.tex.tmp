@@ -1,0 +1,64 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.\+c@{main.\+c}}
+
+
+tache personne.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\\*
+{\ttfamily \#include $<$ctype.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Personne.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}test.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}enemie.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}minimap.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}enigme\+\_\+\+I\+A.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}enigme.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}menu.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}option.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}enig\+\_\+fichier.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}sauvegarde.\+h\char`\"{}}\\*
+Include dependency graph for main.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries mono\+\_\+joueur}~1\hypertarget{main_8c_ab90399f09ae95041f418ab9c61476c49}{}\label{main_8c_ab90399f09ae95041f418ab9c61476c49}
+
+\item 
+\#define {\bfseries multijoueur}~2\hypertarget{main_8c_a56e400870172bb5ed9144deefabd5c7d}{}\label{main_8c_a56e400870172bb5ed9144deefabd5c7d}
+
+\item 
+\#define {\bfseries new\+\_\+game}~0\hypertarget{main_8c_a65fab6dc2b08778ed793d3ee3339fa0d}{}\label{main_8c_a65fab6dc2b08778ed793d3ee3339fa0d}
+
+\item 
+\#define {\bfseries save\+\_\+game}~3\hypertarget{main_8c_aa22feaf051169cb9a60476a5a42079d3}{}\label{main_8c_aa22feaf051169cb9a60476a5a42079d3}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries main} ()\hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+tache personne. 
+
+\begin{DoxyAuthor}{Author}
+Boussida Mohamed Oussema 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+Apr 26, 2022
+\end{DoxyDate}
+Testing program for perso $\ast$ 
