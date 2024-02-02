@@ -1,4 +1,2 @@
-# Leaders-Apocalypse
-✔Conception and development of a 2D game using the Linux operating system and C Language. 
-
-✔ Creation of graphic assets using Adobe Photoshop and Adobe Illustrator . 
+# Leaders-Apocalypse 🧟​
+✔Conception and development of a 2D game using the Linux operating system (Ubuntu) and C Language 🎮​. 
