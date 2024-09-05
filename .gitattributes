@@ -1,4 +1,2 @@
-*.c linguist-language=C
-*.h linguist-language=C
-*.c linguist-language=true
-*.h linguist-language=true
+app/* linguist-documentation=false
+app/* linguist-vendored
