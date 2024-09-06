@@ -8,4 +8,6 @@
 ![](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
 ![](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
+# Screenshots
+
 ![background1](https://github.com/user-attachments/assets/c01e74f3-7b2f-4dba-bd52-213f63fc8395)
