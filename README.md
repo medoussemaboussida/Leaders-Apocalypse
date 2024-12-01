@@ -10,4 +10,33 @@
 
 # Screenshots
 
-![background1](https://github.com/user-attachments/assets/c01e74f3-7b2f-4dba-bd52-213f63fc8395)
+![game](https://github.com/user-attachments/assets/8f97823e-6808-4ca7-8bdf-dead10da4a9b)
+
+# Download
+
+1. SDL Library :
+
+   ```bash
+     sudo apt-get update
+   ``````
+   ```bash
+    sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+   
+2. C Compiler & Build Tools :
+
+    ```bash
+     sudo apt-get install gcc
+   ``````
+   ```bash
+    sudo apt-get install make
+
+3. Execute :
+   
+   ```bash
+    make
+   ``````
+   ```bash
+   ./Game
+
+#
+
